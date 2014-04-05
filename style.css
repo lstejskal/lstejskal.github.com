@@ -19,6 +19,7 @@ body > header {
 section#projects {
   clear: left;
   float: left;
+  width: 800px;
 }
 
 section#projects > header {
