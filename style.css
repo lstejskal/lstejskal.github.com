@@ -77,6 +77,22 @@ section#stackexchange {
   border: 1px solid gray;
 }
 
+section#social_media_links {
+  clear: both;
+  float: none;
+  text-align: center;
+  padding-top: 1em;
+}
+
+#social_media_links a {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+#social_media_links a img {
+  border: 0;
+}
+
 footer {
   position: absolute;
   left: 1em;
