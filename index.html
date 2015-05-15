@@ -1,31 +1,35 @@
 <! DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <title>Lukas Stejskal</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="UTF-8">
+  <title>Lukáš Stejskal</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <!-- optional bootstrap theme -->
-    <!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 
-    <link  href="style.css" rel="stylesheet">
+  <!-- coderwall javascript and styles: for the list of coderwall badges -->
+  <link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
+</head>
+<body>
 
-    <!-- coderwall javascript and styles: for the list of coderwall badges -->
-    <link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+  <div class="container-fluid">
 
-    <header>
-      <h1>Lukas Stejskal</h2>
-    </header>
+    <!-- Page Content -->
+    <div id="page-content-wrapper" class="col-md-8">
+
+      <header>
+        <h1>Lukáš Stejskal</h1>
+      </header>
     
-      <section id="projects">
-        <header><h1>Projects:</h1></header>
+      <div id="projects">
+        <header>
+          <h3>Projects:</h3>
+        </header>
   
         <ul>
-
           <li>
             <a class="project" href="https://github.com/lstejskal/adapi">Adapi</a> - 
             high-level Ruby client library for Google AdWords API.
@@ -56,38 +60,48 @@
           </li>
       
         </ul>
-  
-      <section id="site_links">
-        
-        <div id="wrapper">
-        
-          <section id="coderwall" class="coderwall" data-coderwall-username="lstejskal" data-coderwall-orientation="vertical"></section>
+      </div>
+
+      <footer id="copyright">
+        <p>&copy; 2011-15 Lukáš Stejskal</p>
+      </footer>
+
+    </div>
+
+    <div id="whitespace" class="col-md-1">
+    </div>
+
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper" class="col-md-3">
+
+      <div id="site_links">
+                
+          <div id="coderwall" class="site_link coderwall" data-coderwall-username="lstejskal" data-coderwall-orientation="horizontal"></div>
     
-          <section id="stackexchange" class="stackexchange">
+          <div id="stackexchange" class="site_link">
             <a href="http://stackexchange.com/users/42901">
               <img src="http://stackexchange.com/users/flair/42901.png" width="208" height="58" alt="Stack Exchange profile" title="Stack Exchange profile">
             </a>
-          </section>
+          </div>
 
-         <section id="social_media_links" class="social_media_links">
+         <div id="social_media_links" class="site_link">
             <a href="https://twitter.com/lstejskal" alt="Twitter" target="twitter"><img src="img/twitter_icon_large.png" width="34" height="34" alt="Twitter" title="Twitter"></a>
 
             <a href="https://www.linkedin.com/in/lstejskal" alt="LinkedIn" target="linkedin"><img src="img/linkedin_icon_large.png" width="34" height="34" alt="LinkedIn" title="LinkedIn"></a>
 
             <a href="mailto:lucastej.cz@gmail.com" alt="email" target="email"><img src="img/email_icon_large.png" width="34" height="34" alt="email" title="email"></a>
 
-          </section>
-    
-        </div>
-    
-      </section>
-    
-    <footer>
-      <p>&copy; 2011-15 Lukas Stejskal</p>
-    </footer>
+          </div>
+        
+      </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="http://coderwall.com/javascripts/jquery.coderwall.js"></script>
-  </body>
+    </div>
+    
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="http://coderwall.com/javascripts/jquery.coderwall.js"></script>
+</body>
 </html>
