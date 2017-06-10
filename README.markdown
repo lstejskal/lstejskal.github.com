@@ -1,8 +1,7 @@
 # lstejskal.github.com #
 
-My website, contains information about me and my github projects.
+My website, contains information about me and my projects.
 
 ## Author ##
 
-2011-15 Lukas Stejskal
-
+2011-17 Lukas Stejskal
